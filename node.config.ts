@@ -1,7 +1,8 @@
 import { NodeConfig } from "@lang-engine/lang-engine-node";
 
 const config: NodeConfig = {
-  name: "OpenAI Chat API Node",
+  name: "OpenAI Chat API",
+  description: "Use the OpenAI Chat API",
   functions: [
     {
       name: "callModel",
