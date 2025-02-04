@@ -1,7 +1,7 @@
 {
-  "name": "typescript-lambda",
+  "name": "g-open-ai-node",
   "version": "1.0.0",
-  "description": "AWS Lambda function with TypeScript",
+  "description": "Gentify OpenAI Node",
   "main": "dist/handler.js",
   "scripts": {
     "build": "esbuild src/handler.ts --bundle --platform=node --target=node22 --outfile=dist/handler.js",
